@@ -9,13 +9,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 
-    <title>Bootstrap</title>
+    <title>Teste - Stark</title>
     <link rel="shortcut icon" href="https://iconarchive.com/download/i75133/aha-soft/iron-man/Ironman-Mask-1-Gold.ico" type="image/x-icon">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <section id="home"></section>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#home">
                 <img src="assets/img/logo.png" width="45px" height="45px" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,18 +30,13 @@
                 <a class="nav-link active" aria-current="page" href="#home">Ínicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contato">Entre em contato</a>
+                <a class="nav-link" href="#cards">Armaduras</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Contato
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">WhatsApp</a></li>
-                  <li><a class="dropdown-item" href="#">GitHub</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Linkedin</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#video">Vídeo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Entre em contato</a>
               </li>
             </ul>
           </div>
@@ -47,6 +45,7 @@
     
       <!-- Carrosel -->
 
+  
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,11 +65,11 @@
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden">Anterior</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden">Próximo</span>
         </button>
       </div>
 
@@ -90,15 +89,15 @@
       </div>
 <!-- jumbotron -->
 <!-- Grupo de Cards -->
-
+<section id="cards"></section>
 <div class="container">
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
       <div class="card">
         <img src="assets/img/markvii.jpg" width="100px" height="600px" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 class="card-title">Mark VII</h5>
+          <p class="card-text">O design do Mark VII difere de seus antecessores. Tem um novo design e uma armadura melhorada. A armadura tem revestimento vermelho e dourado com alguns revestimentos prateados como seu antecessor, o Marcos VI.</p>
         </div>
       </div>
     </div>
@@ -106,8 +105,8 @@
       <div class="card">
         <img src="assets/img/markxi.jpg" width="100px" height="600px" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 class="card-title">Mark XI</h5>
+          <p class="card-text">O Mark XI (Mark 11), foi o segundo Traje Avançado do Homem de Ferro , e foi o décimo primeiro terno criado e construído por Tony Stark, após a conclusão e testes bem sucedidos no Mark X, que também era um traje avançado do Homem de Ferro, bem como o primeiro construído, algum tempo após os eventos de Os Vingadores.</p>
         </div>
       </div>
     </div>
@@ -115,8 +114,8 @@
       <div class="card">
         <img src="assets/img/markxliii.jpg" width="100px" height="600px" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <h5 class="card-title">Mark XLIII</h5>
+          <p class="card-text">A Armadura Mark XLIII é o 43º traje do Homem de Ferro de Tony Stark,e o primeiro a ser criado depois que a Legião de Ferro foi destruída durante a Batalha no Norco.</p>
         </div>
       </div>
     </div>
@@ -124,14 +123,14 @@
       <div class="card">
         <img src="assets/img/markxlv.jpg" width="100px" height="600px"class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 class="card-title">Mark XLV</h5>
+          <p class="card-text">A Armadura Mark XLV foi o 45º traje do Homem de Ferro de Tony Stark,usado durante a Batalha de Sokovia e criado depois que a Legião de Ferro foi destruída durante a Batalha no Norco.</p>
         </div>
       </div>
     </div>
   </div>
 
-
+<video src="assets/video/Homem De Ferro (2008) - BDRip 1080p - Dublado.mp4"></video>
 <!-- Grupo de cards -->
 
 
@@ -143,7 +142,7 @@
 <div class="row mt-5 mb-5">
   <div class="col-md-6">
     <h1 class="text-center">
-      Lorem ipsum dolor sit amet.
+      Trilogia Iron Man
     </h1>
 <p class="text-center">
   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum sint quibusdam velit! Voluptatibus maiores labore aut, nemo, quos ipsa voluptatem necessitatibus illum, commodi in veritatis. Doloribus illo facere at odio iure explicabo, magni ipsa magnam consectetur sequi distinctio nostrum. repellendus commodi id inventore.
@@ -152,14 +151,24 @@
   Maxime animi unde vitae veniam deserunt, magni sequi ipsum eius cupiditate nostrum necessitatibus tempora quia, culpa distinctio laborum dolores illum illo est. Repellendus reprehenderit beatae distinctio pariatur possimus necessitatibus tempore. Consectetur temporibus fuga molestiae sequi totam dolores ad quam commodi porro beatae nisi aliquam eligendi sit, soluta ipsum impedit excepturi quia ullam velit veritatis! Tempora laboriosam magnam 
 </p>
   </div>
-
-  <div class="col-md-6 d-flex justify-content-end">
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/v03akUNQ6uQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  <div class="col-md-6 d-flex justify-content-end"><section id="video"></section>
+    <video controls="true" class="embed-responsive-item border border-dark rounded" width="560" height="315" frameborder="0">
+      <source src="assets/video/Homem De Ferro 1.mp4" type="video/mp4" />
+    </video>
     
   </div>
+  <div class="col-md-6 d-flex justify-content-end">
+    <video controls="true" class="embed-responsive-item border border-dark rounded" width="560" height="315" frameborder="0">
+      <source src="assets/video/Homem De Ferro 2.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="col-md-6 d-flex justify-content-end">
+    <video controls="true" class="embed-responsive-item border border-dark rounded" width="560" height="315" frameborder="0">
+      <source src="assets/video/Homem De Ferro 3.mp4" type="video/mp4" />
+    </video>
+  </div>
 </div>
-
 
 
 
@@ -168,7 +177,7 @@
 
 
 <!-- formulario -->
-<section id="contato">
+<section id="contato"></section>
 <form class="row g-3">
   <h2 class="text-center">Entre em contato: </h2>
   <div class="col-md-6">
@@ -238,7 +247,7 @@
   
 </form>
 
-</section>
+
 <!-- formulario -->
 
 
